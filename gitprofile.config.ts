@@ -9,11 +9,11 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
-        sortBy: 'stars',
+        sortBy: 'latest',
         limit: 8,
         exclude: {
           forks: false,
-          projects: []
+          projects: [],
         },
       },
       manual: {
@@ -44,7 +44,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Abhishek Panwar',
-    description: '',
+    description: 'Software developer engineer',
     imageURL: '',
   },
   social: {
@@ -65,13 +65,12 @@ const CONFIG = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://abhishek.pro',
+    website: 'https://abhishekpanwar.vercel.app',
     phone: '+919991237576',
     email: 'abhishekpanwar1718@gmail.com',
   },
   resume: {
-    fileUrl:
-      '/resume/abhishek_cv.pdf',
+    fileUrl: '/resume/abhishek_cv.pdf',
   },
   skills: [
     'JavaScript',
@@ -135,8 +134,7 @@ const CONFIG = {
       journalName: 'Dev.to',
       authors: 'Abhishek Panwar',
       link: 'https://dev.to/abhishekpanwarrr/rest-api-and-its-architecture-3623',
-      description:
-        `In today's web development world, APIs (Application Programming Interfaces) play a crucial role in enabling communication between different software systems. One of the most widely used types of API is the REST API, which stands for Representational State Transfer. REST APIs have become the standard for building scalable, maintainable, and efficient web services. In this blog, we will dive deep into what REST APIs are, their principles, architecture, components, and how to design and implement them effectively.`,
+      description: `In today's web development world, APIs (Application Programming Interfaces) play a crucial role in enabling communication between different software systems. One of the most widely used types of API is the REST API, which stands for Representational State Transfer. REST APIs have become the standard for building scalable, maintainable, and efficient web services. In this blog, we will dive deep into what REST APIs are, their principles, architecture, components, and how to design and implement them effectively.`,
     },
   ],
   blog: {
