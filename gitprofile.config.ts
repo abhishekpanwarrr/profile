@@ -87,7 +87,7 @@ const CONFIG = {
     {
       company: 'Leadzen ai',
       position: 'Software developer engineer -1',
-      from: 'July 2022',
+      from: 'Feb 2022',
       to: 'December 2023',
       companyLink: '',
     },
